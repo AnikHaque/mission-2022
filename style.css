@@ -3,10 +3,10 @@ body{
     margin: 0;
 }
 .top-section{    
-    background-image: url(images/top-bg.png);
+      background-image: url(images/top-bg.png);  
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px 90px 150px 90px;
+    padding: 150px 90px 110px 90px;
     min-height: 100%;
     margin-bottom: 150px;
 }
@@ -14,12 +14,13 @@ body{
     display: flex;
 }
 .container-width{
-    width: 50%;
+     width: 50%; 
 }
+
 .container-width img{
-    width: 110%;
+    width: 90%;
     margin-left: -50px;
-    margin-top: -20px;
+   margin-top: -170px;
 }
 
 h1{
@@ -35,12 +36,34 @@ h3{
     font-size: 18px;
     font-weight: 300;
 }
+.banner-title{
+    font-size: 50px;
+}
 h2{
     color: #262626;
     font-size: 25px;
 }
 h2 small{
     font-size: 18px;
+}
+.mission-section{
+    padding: 0px 50px 100px 50px;
+    margin-top: -30px;
+}
+.mission-column{
+    width: 33.33%;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px rgb(187, 196, 209);
+}
+
+.mission-column img {
+    max-width: 100%;
+}
+.my-mission{
+    color: black;
+    text-align: center;
 }
 .white-Para{
     color: whitesmoke;
@@ -90,32 +113,16 @@ ul{
     padding: 50px 100px 200px 210px;
 }
 .second-section-column2{
-    padding: 65px 120px 60px 60px;
+    padding: 55px 120px 60px 60px; 
     margin-left: -80px;
 }
 .second-section-column1 img{
     border-radius: 5px;
 }
-.todays-best-bg{
-    background-image: url(images/food-bg-4.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.recipe-section{
-    padding: 0px 50px 100px 50px;
-    margin-top: -30px;
-}
-.recipe-column{
-    width: 33.33%;
-    padding: 35px;
-    margin: 20px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 50px rgb(187, 196, 209);
-}
 
-.recipe-column img {
-    max-width: 100%;
-}
+
+
+
   
 img.align-self {
     align-self: center;
@@ -131,19 +138,8 @@ img.align-self {
     background-color: #262626;
     padding: 30px 30px 25px 30px;
 }
-.counter-section{
-    padding: 0px 50px;
-    margin: 150px;
-    border: 2px solid rgb(225, 226, 228);
-    border-radius: 8px;
-    
-}
-.counter-column{
-    width: 33.33%;
-    padding: 30px;
-    border-radius: 15px;
-    text-align: center;   
-}
+
+
 .icon{
     width: 30%;
 }
@@ -162,9 +158,70 @@ img.align-self {
     line-height: 0.05em;
     
 }
-.counter-backgroung{
-    background-image: url(images/food-bg-2.png);
-    background-repeat: no-repeat; 
-    background-position: right;
-    padding: 0px 20px 60px 20px;
+
+
+.code-section{
+    background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-abstract-black-and-yellow-grunge-background-picture-image_1342528.jpg");
+    background-repeat: no-repeat;
+     background-size: cover; 
+    padding: 100px 90px 70px 90px;
+    min-height: 100%;
+    margin-bottom: 150px;
+    
+}
+.coding-image{
+    width: 500px;
+    margin-top: 120px;
+}
+.project-image{
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.footer-title{
+    color: white;
+}
+.community-section{
+    /* background-image: linear-gradient(#f57906, #f9c011); */
+    background-repeat: no-repeat;
+     background-size: cover; 
+    padding: 100px 90px 70px 90px;
+    min-height: 100%;
+    margin-bottom: 150px;
+   
+}
+.community-title{
+    font-size: 50px;
+    line-height: 59px;
+    color: black;
+    margin-top: -10px;
+}
+.headline {
+    padding-left: 10px;
+    /* font-family: 'Source Serif Pro', serif; */
+    line-height: 2.5rem;
+    border-left: 5px solid #f9c011;
+} 
+.community-description{
+    color: black;
+    margin-bottom: 50px;
+}
+.half-width {
+    width: 50%;
+    margin: auto 0;
+}
+input {
+    width: 70%;
+    margin: 5px 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-msg {
+    width: 70%;
+    padding: 10px 10px 150px 10px;
+}
+.form-image{
+    margin-top: 170px;
+    width: 500px;
 }
