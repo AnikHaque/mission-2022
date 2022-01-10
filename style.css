@@ -1,7 +1,10 @@
+/* full body  */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* banner part  */
 .top-section{    
       background-image: url(images/top-bg.png);  
     background-repeat: no-repeat;
@@ -46,6 +49,8 @@ h2{
 h2 small{
     font-size: 18px;
 }
+
+/* mission part  */
 .mission-section{
     padding: 0px 50px 100px 50px;
     margin-top: -30px;
@@ -73,6 +78,21 @@ h2 small{
     color: black;
     text-align: center;
 }
+
+/* code part  */
+.code-section{
+    background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-abstract-black-and-yellow-grunge-background-picture-image_1342528.jpg");
+    background-repeat: no-repeat;
+     background-size: cover; 
+    padding: 100px 90px 70px 90px;
+    min-height: 100%;
+    margin-bottom: 150px;
+    
+}
+.coding-image{
+    width: 500px;
+    margin-top: 120px;
+}
 .white-Para{
     color: whitesmoke;
     padding-bottom: 40px;
@@ -98,6 +118,8 @@ ul{
    
     
 }
+
+/* contact part  */
 .contact{
     text-decoration: none;
     padding: 10px 30px;
@@ -113,6 +135,17 @@ ul{
 .contact a{
     text-decoration: none;
 }
+.contact-main{
+    text-align: center;
+    margin: 80px;
+    border-radius: 5px;
+    margin-top: -0px;
+    padding: 60px 60px 100px 60px;
+    background-image: linear-gradient(#f57906, #f9c011);
+    box-shadow: 10px 10px 50px rgb(187, 196, 209);
+}
+
+/* all headings  */
 .black-heading{
     color: #262626;
     text-align: center;
@@ -124,79 +157,39 @@ ul{
     color: #262626;
 
 }
+/* my mission card 1 */
 .second-section-column1{
     width: 40%;
     padding: 50px 100px 200px 210px;
 }
+/* my mission card 2 */
 .second-section-column2{
     padding: 55px 120px 60px 60px; 
     margin-left: -80px;
 }
+/* my mission card 3 */
 .second-section-column1 img{
     border-radius: 5px;
 }
-
-
-
 
   
 img.align-self {
     align-self: center;
 }
-.button{
-    text-decoration: none;
-    color: #f9c011;
-    border-radius: 50px;
-    font-weight: 700;
-}
-.footer{
-    text-align: center;
-    background-color: #262626;
-    padding: 30px 30px 25px 30px;
-}
 
-
+/* my mission part icon  */
 .icon{
     width: 30%;
 }
-.offer{
-    text-align: center;
-    margin: 80px;
-    border-radius: 5px;
-    margin-top: -0px;
-    padding: 60px 60px 100px 60px;
-    background-image: linear-gradient(#f57906, #f9c011);
-    box-shadow: 10px 10px 50px rgb(187, 196, 209);
-}
-#offer{
-    color:#262626;
-    font-size: 100px;
-    line-height: 0.05em;
-    
-}
 
 
-.code-section{
-    background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-abstract-black-and-yellow-grunge-background-picture-image_1342528.jpg");
-    background-repeat: no-repeat;
-     background-size: cover; 
-    padding: 100px 90px 70px 90px;
-    min-height: 100%;
-    margin-bottom: 150px;
-    
-}
-.coding-image{
-    width: 500px;
-    margin-top: 120px;
-}
+/* community part  */
 .project-image{
     width: 500px;
     margin-top: 120px;
     margin-left: 150px;
 }
-.footer-title{
-    color: white;
-}
+
 .community-section{
     /* background-image: linear-gradient(#f57906, #f9c011); */
     background-repeat: no-repeat;
@@ -214,7 +207,6 @@ img.align-self {
 }
 .headline {
     padding-left: 10px;
-    /* font-family: 'Source Serif Pro', serif; */
     line-height: 2.5rem;
     border-left: 5px solid #f9c011;
 } 
@@ -226,6 +218,8 @@ img.align-self {
     width: 50%;
     margin: auto 0;
 }
+
+/* contact form part  */
 form{
     margin-top: 20px;
 }
@@ -243,4 +237,24 @@ input {
 .form-image{
     margin-top: 170px;
     width: 500px;
+}
+
+/* footer part  */
+footer {
+    height: 300px;
+    text-align: center;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 2.5rem;
+}
+
+
+footer p {
+    color: gray;
 }
