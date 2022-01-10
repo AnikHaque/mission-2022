@@ -57,7 +57,15 @@ h2 small{
     border-radius: 15px;
     box-shadow: 10px 10px 50px rgb(187, 196, 209);
 }
-
+.mission-card{
+    background-color: rgb(237, 245, 246);
+}
+.vission-card{
+    background-color: rgb(255, 238, 238);
+}
+.goal-card{
+    background-color: rgb(255, 244, 214);
+}
 .mission-column img {
     max-width: 100%;
 }
@@ -79,15 +87,7 @@ p{
 ul{
     padding: 10px 20px 30px;
 }
-.discover-btn{
-    text-decoration: none;
-    padding: 15px 40px;
-    color: white;
-    background-image: linear-gradient(45deg,#262626, #141414);
-    border-radius: 50px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-}
+
 .btn{
     text-decoration: none;
     padding: 10px 30px;
@@ -95,7 +95,23 @@ ul{
     background-image: linear-gradient(45deg,#f9c011, #f57906);
     border-radius: 50px;
     font-weight: 700;
+   
     
+}
+.contact{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #262626;
+    background-image: linear-gradient(45deg,#f9c011, #f57906);
+    border-radius: 50px;
+    font-weight: 700;
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 15px;
+   
+}
+.contact a{
+    text-decoration: none;
 }
 .black-heading{
     color: #262626;
@@ -209,6 +225,9 @@ img.align-self {
 .half-width {
     width: 50%;
     margin: auto 0;
+}
+form{
+    margin-top: 20px;
 }
 input {
     width: 70%;
