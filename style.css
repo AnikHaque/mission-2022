@@ -219,6 +219,18 @@ img.align-self {
     margin: auto 0;
 }
 
+/* offer section  */
+.own-website{
+    text-align: center;
+    margin: 80px;
+    border-radius: 5px;
+    margin-top: -0px;
+    padding: 60px 60px 100px 60px;
+    background-image: linear-gradient(#f57906, #f9c011);
+    box-shadow: 10px 10px 50px rgb(187, 196, 209);
+}
+
+
 /* contact form part  */
 form{
     margin-top: 20px;
